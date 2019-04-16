@@ -10,6 +10,8 @@
 
 html {
   overflow: hidden;
+  background: no-repeat url("../images/bg-desktop.svg") var(--violet);
+  background-size: auto 100vh;
 }
 
 body {
@@ -23,10 +25,18 @@ h1 {
 .logo {
 }
 
+.flex-container {
+  display: flex;
+}
 .splash {
+  width: 60vw;
+  min-height: 100vh;
+  background: no-repeat center url("../images/illustration-mockups.svg");
 }
 
 .content {
+  width: 40vw;
+  min-height: 100vh;
 }
 
 .social-media-container {
