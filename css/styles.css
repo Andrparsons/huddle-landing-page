@@ -16,6 +16,8 @@ html {
 
 body {
   font-family: "Open Sans", sans-serif;
+  padding: 4rem 4rem 2rem 4rem;
+  min-height: 100vh;
 }
 
 h1 {
@@ -29,14 +31,18 @@ h1 {
   display: flex;
 }
 .splash {
+  display: flex;
   width: 60vw;
-  min-height: 100vh;
-  background: no-repeat center url("../images/illustration-mockups.svg");
+  justify-content: center;
+  align-items: center;
+}
+
+.mockup-img {
+  width: 100%;
 }
 
 .content {
   width: 40vw;
-  min-height: 100vh;
 }
 
 .social-media-container {
