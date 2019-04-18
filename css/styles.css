@@ -20,17 +20,19 @@ body {
   min-height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 h1 {
   font-family: "Poppins", sans-serif;
 }
 
-.header-container {
+.logo-container {
+  padding: 4rem 0 0 4rem;
 }
 
 .logo {
+  height: 2.5rem;
 }
 
 .main-container {
@@ -41,6 +43,7 @@ h1 {
   width: 60vw;
   justify-content: center;
   align-items: center;
+  padding: 5rem 4rem 4rem 4rem;
 }
 
 .mockup-img {
