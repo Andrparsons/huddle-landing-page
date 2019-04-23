@@ -22,6 +22,8 @@ body {
 
 h1 {
   font-family: "Poppins", sans-serif;
+  font-size: 2.4rem;
+  margin-top: 2.7rem;
 }
 
 .logo-container {
@@ -33,11 +35,11 @@ h1 {
 
 .main-container {
   height: 100%;
-  padding: 4rem 5rem 2rem;
+  padding: 4rem 5rem 2.5rem;
   display: grid;
   grid-template-columns: 55% 1fr;
   grid-column-gap: 4rem;
-  grid-template-rows: 8rem 1fr 2rem;
+  grid-template-rows: 8rem 1fr 2.5rem;
   grid-template-areas:
     "header header"
     "splash content"
@@ -51,6 +53,7 @@ header {
 
 .splash {
   grid-area: splash;
+  place-self: center;
 }
 
 .mockup-img {
@@ -62,11 +65,20 @@ header {
   grid-area: content;
 }
 
+p {
+  font-size: 1.1rem;
+  margin-top: 2.5rem;
+}
+
 .btn {
-  padding: 0.75rem 2rem;
+  padding: 0.8rem 4rem;
   border-radius: 48px;
   font-family: "Poppins", sans-serif;
   color: var(--violet);
+  font-size: 1.1rem;
+  border: none;
+  margin-top: 1.7rem;
+  box-shadow: 2px 5px 10px 1px #493b6c;
 }
 
 .footer-container {
@@ -77,4 +89,13 @@ header {
 a {
   text-decoration: none;
   color: #fff;
+  font-size: 1.2rem;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  line-height: 2.3rem;
+  text-align: center;
+  display: inline-block;
+  margin-left: 1rem;
 }
