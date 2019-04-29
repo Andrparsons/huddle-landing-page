@@ -101,7 +101,7 @@ a {
   html {
     overflow: auto;
     background: no-repeat url("../images/bg-mobile.svg") var(--violet);
-    background-size: auto 100vh;
+    background-size: 100vw auto;
     height: 100%;
   }
 
@@ -109,12 +109,28 @@ a {
     padding: 4rem 5rem 2.5rem;
     grid-template-columns: none;
     grid-column-gap: 0;
-    grid-template-rows: 8rem 1fr 1fr 2.5rem;
+    grid-template-rows: 8rem 1fr 1fr 5.5rem;
     grid-template-areas:
       "header"
       "splash"
       "content"
       "footer";
     margin: auto;
+  }
+
+  .splash {
+    padding: 5rem 0;
+  }
+
+  .content {
+    text-align: center;
+    padding-bottom: 7rem;
+  }
+  .btn {
+    padding: 0.8rem 9rem;
+  }
+
+  .footer-container {
+    justify-self: center;
   }
 }
