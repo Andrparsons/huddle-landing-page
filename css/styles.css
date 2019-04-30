@@ -76,6 +76,7 @@ p {
   border: none;
   margin-top: 1.7rem;
   box-shadow: 2px 5px 10px 1px #493b6c;
+  outline: none;
 }
 
 .footer-container {
@@ -95,6 +96,7 @@ a {
   text-align: center;
   display: inline-block;
   margin-left: 1rem;
+  outline: none;
 }
 
 @media screen and (max-width: 900px) {
@@ -132,5 +134,53 @@ a {
 
   .footer-container {
     justify-self: center;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .main-container {
+    display: block;
+    padding: 2rem 2.4rem 2.5rem;
+  }
+
+  .logo {
+    width: 130px;
+  }
+
+  .splash {
+    padding: 3.5rem 0;
+  }
+
+  .content {
+    padding-bottom: 4rem;
+  }
+
+  h1 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 0.97rem;
+    margin-top: 1.5rem;
+  }
+
+  .btn {
+    margin-top: 1.5rem;
+    padding: 0.65rem 4.7rem;
+    font-size: 0.8rem;
+  }
+
+  .footer-container {
+    text-align: center;
+    margin-bottom: 2.5rem;
+  }
+
+  a {
+    font-size: 0.9rem;
+    width: 1.7rem;
+    height: 1.7rem;
+    line-height: 1.6rem;
+    margin-left: 0.5rem;
   }
 }
